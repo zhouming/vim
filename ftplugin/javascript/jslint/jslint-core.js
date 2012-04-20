@@ -900,7 +900,7 @@ var JSLINT = (function () {
 // unsafe comment or string
         ax = /@cc|<\/?|script|\]*s\]|<\s*!|&lt/i,
 // unsafe characters that are silently deleted by one or more browsers
-        cx = /[\u0000-\u001f\u007f-\u009f\u00ad\u0600-\u0604\u070f\u17b4\u17b5\u200c-\u200f\u2028-\u202f\u2060-\u206f\ufeff\ufff0-\uffff]/,
+        cx = /[\u0000-\u001f\u007f-\u009f\u00ad\u0600-\u0604\u070f\u17b4\u17b5\u200c-\u200f\u2028-\u202f\u2060-\u206f\ufeff\ufff0-\uffff&&[^\uff00-\uffef]&&[^\u2e80-\u2eff][^\u3000-\u303f][^\u31c0-\u31ef]&&[^\u3400-\u4db5]&&[^\u4E00-\u9FA5]&&[^\u9fa6-\u9fbb]&&[^\uf900-\ufa2d]&&[^\ufa30-\ufa6a]&&[^\ufa70-\ufad9]&&[^\u200000-\u2a6d6]&&[^\u2f800-\u2fa1d]]/,
 // token
         tx = /^\s*([(){}\[.,:;'"~\?\]#@]|==?=?|\/(\*(jslint|members?|global)?|=|\/)?|\*[\/=]?|\+(?:=|\++)?|-(?:=|-+)?|%=?|&[&=]?|\|[|=]?|>>?>?=?|<([\/=!]|\!(\[|--)?|<=?)?|\^=?|\!=?=?|[a-zA-Z_$][a-zA-Z0-9_$]*|[0-9]+([xX][0-9a-fA-F]+|\.[0-9]*)?([eE][+\-]?[0-9]+)?)/,
 // html token
