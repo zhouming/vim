@@ -2,9 +2,11 @@
 set fileencodings=utf-8,cp936
 set encoding=utf-8
 set termencoding=utf-8
-
+set guifont=Source_Code_pro:h14
 "默认风格
 "colorscheme doriath
+
+set colorcolumn=80
 
 call pathogen#infect()
 "打开文件类型检测，taglist使用
@@ -20,6 +22,7 @@ syntax enable
 set nu
 
 "版式
+set cindent
 set smartindent
 set tabstop=4 
 set shiftwidth=4
@@ -84,7 +87,7 @@ let g:syntastic_check_on_open=1
 let g:syntastic_enable_signs=1 
 let g:syntastic_auto_loc_list=1
 
-let g:syntastic_phpcs_conf = "--tab-width=4 --standard=CodeIgniter"
+let g:syntastic_phpcs_conf = "--tab-width=4 --standard=PSR2"
 let loaded_css_syntax_checker = 1
 let g:syntastic_phpcs_disable = 1
 
