@@ -50,6 +50,7 @@ if has("autocmd")
     au FileType php,javascript,html,css,python,ruby,vim,vimwiki set bin noeol
     au BufRead,BufNewFile *.log setf httplog
 	au BufRead,BufNewFile *.{md,mdown,mkd,mkdn,markdown,mdwn}   set filetype=markdown
+	au BufRead,BufNewFile /usr/local/etc/nginx/sites/* set ft=nginx 
     filetype indent on
 endif
 
