@@ -19,3 +19,6 @@
 [submodule "bundle/ini-syntax-definition"]
 	path = bundle/ini-syntax-definition
 	url = https://github.com/vim-scripts/ini-syntax-definition.git
+[submodule "bundle/actionscript.vim"]
+	path = bundle/actionscript.vim
+	url = https://github.com/vim-scripts/actionscript.vim.git

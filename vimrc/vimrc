@@ -49,6 +49,8 @@ if has("autocmd")
     au FileType php,javascript,html,css,python,ruby,vim,vimwiki set ff=unix
     au FileType php,javascript,html,css,python,ruby,vim,vimwiki set bin noeol
     au BufRead,BufNewFile *.log setf httplog
+    au BufRead,BufNewFile *.conf setf ini
+	au BufNewFile,BufRead *.as setf actionscript
 	au BufRead,BufNewFile *.{md,mdown,mkd,mkdn,markdown,mdwn}   set filetype=markdown
 	au BufRead,BufNewFile /usr/local/etc/nginx/sites/* set ft=nginx 
     filetype indent on
@@ -90,7 +92,7 @@ let g:syntastic_auto_loc_list=1
 
 let g:syntastic_phpcs_conf = "--tab-width=4 --standard=PSR2"
 let loaded_css_syntax_checker = 1
-let g:syntastic_phpcs_disable = 1
+let g:syntastic_phpcs_disable = 0
 
 if has('mac')
   let g:HAMMER_BROWSER = 'open'
