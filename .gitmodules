@@ -22,3 +22,6 @@
 [submodule "bundle/actionscript.vim"]
 	path = bundle/actionscript.vim
 	url = https://github.com/vim-scripts/actionscript.vim.git
+[submodule "bundle/vim-colors-solarized"]
+	path = bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
