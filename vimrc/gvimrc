@@ -27,7 +27,9 @@ endif
 "if !exists("colors_name")
     " Use the macvim color scheme by default
     "colorscheme macvim
-	colorscheme ir_black
+	"colorscheme ir_black
+set background=dark
+colorscheme solarized
 	"colorscheme cobalt
 "endif
 
