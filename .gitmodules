@@ -28,3 +28,15 @@
 [submodule "bundle/unite.vim"]
 	path = bundle/unite.vim
 	url = https://github.com/Shougo/unite.vim.git
+[submodule "bundle/nerdcommenter"]
+	path = bundle/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "bundle/tcomment.vim"]
+	path = bundle/tcomment.vim
+	url = https://github.com/tomtom/tcomment_vim.git
+[submodule "bundle/sudo.vim"]
+	path = bundle/sudo.vim
+	url = git@github.com:vim-scripts/sudo.vim.git
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = git://github.com/majutsushi/tagbar

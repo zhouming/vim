@@ -9,7 +9,7 @@ set guifont=Source_Code_pro:h14
 set colorcolumn=80
 
 call pathogen#infect()
-"打开文件类型检测，taglist使用
+"打开文件类型检测
 
 filetype on
 
@@ -57,11 +57,11 @@ if has("autocmd")
 endif
 
 "neocompletecache
-let g:neocomplcache_enable_at_startup=1
-let g:neocomplcache_disable_auto_complete=0
-let g:neocomplcache_enable_smart_case=1
-let g:SuperTabDefaultCompletionType='<C-X><C-U>'
-let g:acp_enableAtStartup = 0
+"let g:neocomplcache_enable_at_startup=1
+"let g:neocomplcache_disable_auto_complete=0
+"let g:neocomplcache_enable_smart_case=1
+"let g:SuperTabDefaultCompletionType='<C-X><C-U>'
+"let g:acp_enableAtStartup = 0
 
 "保存文件上次位置
 autocmd BufReadPost *
