@@ -43,3 +43,15 @@
 [submodule "bundle/emmet-vim"]
 	path = bundle/emmet-vim
 	url = git@github.com:mattn/emmet-vim.git
+[submodule "bundle/vim-gocode"]
+	path = bundle/vim-gocode
+	url = https://github.com/Blackrush/vim-gocode.git
+[submodule "bundle/vim-golang"]
+	path = bundle/vim-golang
+	url = https://github.com/jnwhiteh/vim-golang.git
+[submodule "/Users/zhouming/.vim/bundle/vim-godef"]
+	path = /Users/zhouming/.vim/bundle/vim-godef
+	url = https://github.com/dgryski/vim-godef
+[submodule "bundle/neocomplcache.vim"]
+	path = bundle/neocomplcache.vim
+	url = https://github.com/Shougo/neocomplcache.vim.git
